@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "241154349997",
+    "firebase_url": "https://cwtch-org-default-rtdb.firebaseio.com",
+    "project_id": "cwtch-org",
+    "storage_bucket": "cwtch-org.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241154349997:android:b74ad80fcc18676eefdf24",
+        "android_client_info": {
+          "package_name": "com.cwtchorguser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241154349997-lrt3ikphvsb78hkp5ihlh03pm0fjk3rf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cwtchorguser",
+            "certificate_hash": "6f868c43a80dc1060f054ae7d5d2b07684d343b8"
+          }
+        },
+        {
+          "client_id": "241154349997-4u5u97r7n9ov1bjk3plk95srmlc9svtk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMZko1oGFu1YqOaYvd8oKKvYwVIZRg9YY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241154349997-4u5u97r7n9ov1bjk3plk95srmlc9svtk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
