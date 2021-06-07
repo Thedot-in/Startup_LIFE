@@ -40,6 +40,7 @@ const AddPost = ({navigation, userState}) => {
 
 
     const chooseImage = async () => {
+      console.log("Image picker")
         ImagePicker.showImagePicker(options, (response) => {
             console.log('Response = ', response)
 
