@@ -19,7 +19,7 @@ import ProgressBar from 'react-native-progress/Bar'
 import database from '@react-native-firebase/database'
 
 import storage from '@react-native-firebase/storage'
-import ImagePicker from 'react-native-image-picker'
+import ImagePicker from "react-native-image-picker"
 import {options} from '../utils/options'
 
 //redux
@@ -33,7 +33,7 @@ const AddPost = ({navigation, userState}) => {
     const [description, setDescription] = useState('')
     const [story, setStory] = useState('')
 
-    const [image, setImage] = useState(null)
+    const [image, setImage] = useState('https://images.unsplash.com/photo-1622495551393-9b3c4801ae14?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D')
 
     const [imageUploading, setImageUploading] = useState(false)
     const [uploadStatus, setUploadStatus] = useState(null)
@@ -149,7 +149,7 @@ const AddPost = ({navigation, userState}) => {
                     iconLeft
                     info
                     style={styles.formItem}
-                    onPress={chooseImage}>
+                    onPress={() =>chooseImage()}>
                     <Icon
                       name="md-image-outline"
                       type="Ionicons"
